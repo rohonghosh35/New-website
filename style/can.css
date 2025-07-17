@@ -1,0 +1,181 @@
+ .nav-container{
+    margin: 49px 133px 63px 150px;
+
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+.logo img{
+    height:50px;
+    width:50px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.input-container{
+ position:relative;
+}
+
+.input-container i{
+    position: absolute;
+   top:15px;
+   right:15px; 
+   width:22px;
+   height:22px;
+}
+.input-container input{
+    width:500px;
+    height: 1px;
+    background-color: #F1F1F1;
+    border-radius: 66px;
+    padding:20px;
+    border:none;
+}
+
+.li-container {
+    display: flex;
+    gap:20px;
+    
+}
+
+.li-container li{
+    list-style: none;
+  
+}
+.li-container li a{
+     text-decoration: none;
+     color: #707070;
+}
+.container{
+    max-width:1212px;
+    margin: 0 auto;
+}
+
+.First-section-container{
+    display: flex;
+    gap:30px;
+    justify-content: space-between;
+    background-color: #FEEAE9;
+    padding: 10px 0px 30px 20px;
+    border-radius: 20px;
+}
+
+.Firstcontainer h1{
+    font-size: 56px;
+    font-weight: 700;
+    color: #1F1F1F;
+    width: 600px;
+    height: 84px;
+}
+
+.Firstcontainer p{
+    width: 456px;
+    height: 97px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4E4E4E;
+}
+
+.Firstcontainer h2{
+    font-weight: 500;
+    font-size: 41px;
+    height: 61px;
+    width: 117px;
+    color: #FF136F;
+}
+
+.Firstcontainer button{
+    width:168px;
+    padding: 16px;
+    border-radius: 5px;
+    background:linear-gradient(to right, #FF589BFF,#FF136FFF);
+font-size: 16px;
+font-weight: 500;
+}
+
+.image-container img{
+    width: 402px;
+    height: 378px;
+}
+
+.categories-container{
+    display:flex ;
+    justify-content: space-around;
+    gap:26px;
+}
+.watch, .Bag, .Shoes{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 358px;
+    height: 120px;
+    border-radius:10px ;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 500;
+    padding-left: 58px;
+    padding-bottom: 33px;
+}
+.watch{
+    background-color: chartreuse;
+}
+
+.Bag{
+ background: linear-gradient(to right, #FF589BFF,#FF136FFF);
+}
+.Shoes{
+    background-color: blue;
+}
+
+ .watch, .Bag , .Shoes img{
+    padding-top:10px;
+}
+
+.Shoes-container{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 5px whitesmoke;
+}
+
+.card img{
+    width: 336px;
+    height:202px;
+}
+
+.card h2{
+    font-weight: 600px;
+    font-size: 24px;
+    color: #1F1F1F;
+     padding-left: 26px;
+}
+
+.card p{
+    color: #4E4E4E;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 26px ;
+}
+.card h3{
+    font-weight: 500 ;
+    font-size: 24px ;
+    color:#000000;
+    margin-left:120px;
+
+}
+
+.card button{
+    background-color: #000000;
+    width:168px;
+    height:52px;
+    font-weight: 500;
+    font-size: 16px;
+    color:#F1F1F1;
+    border-radius: 6px;
+    margin-left:80px;
+}
+.headshoe, .categories{
+    font-weight: 600;
+    font-size: 36px;
+}

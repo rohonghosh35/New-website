@@ -136,22 +136,26 @@ font-weight: 500;
 .Shoes-container{
     display: flex;
     justify-content: space-around;
-    box-shadow: 0 0 5px whitesmoke;
+    gap: 20px;
+   
 }
 
+.card {
+  box-shadow: 10px 10px 20px wheat;
+}
 .card img{
     width: 336px;
     height:202px;
 }
 
-.card h2{
+.card, .bag-container h2{
     font-weight: 600px;
     font-size: 24px;
     color: #1F1F1F;
      padding-left: 26px;
 }
 
-.card p{
+.card, .bag-container p{
     color: #4E4E4E;
     font-weight: 400;
     font-size: 16px;
@@ -175,7 +179,37 @@ font-weight: 500;
     border-radius: 6px;
     margin-left:80px;
 }
-.headshoe, .categories{
+.headshoe, .categories, .back{
     font-weight: 600;
     font-size: 36px;
 }
+.bagggs{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.bag-container img{
+    height: 290px;
+    width: 290px;
+}
+
+.bag-container h3{
+    font-weight: 500 ;
+    font-size: 24px ;
+    color:#000000;
+    margin-left:120px;
+
+}
+
+.bag-container button{
+     background-color: #000000;
+    width:168px;
+    height:52px;
+    font-weight: 500;
+    font-size: 16px;
+    color:#F1F1F1;
+    border-radius: 6px;
+    margin-left:80px;
+}
+

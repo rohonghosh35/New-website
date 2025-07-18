@@ -217,8 +217,7 @@ font-weight: 500;
 }
 
 .footer{
-    background-color: #FFF2F1
-    width:1212px;
+    background-color: wheat;
     
     margin: 0 auto;
 }
@@ -269,6 +268,8 @@ border-left: none;
 
 }
 
-
+button i{
+    color: #FEEAE9;
+}
 
 

@@ -140,8 +140,11 @@ font-weight: 500;
    
 }
 
-.card {
+
+
+.card, .bag-container{
   box-shadow: 10px 10px 20px wheat;
+  padding-bottom: 10px;
 }
 .card img{
     width: 336px;
@@ -212,4 +215,60 @@ font-weight: 500;
     border-radius: 6px;
     margin-left:80px;
 }
+
+.footer{
+    background-color: #FFF2F1
+    width:1212px;
+    
+    margin: 0 auto;
+}
+.footer-container{
+    padding: 200px;
+    margin-top: 71px;
+    text-align: center;
+   
+}
+
+.footer-container h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: #1F1F1F;
+}
+
+.footer-container h5{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.footer-container input{
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    border-right:none;
+    
+}
+
+.footer-container button{
+    width:157px;
+    height:50px;
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    background: linear-gradient(to right, #FF589BFF,
+#FF136FFF);
+border-radius:10px;
+border-left: none;
+}
+
+.Final{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
 

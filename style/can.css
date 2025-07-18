@@ -94,7 +94,9 @@
 font-size: 16px;
 font-weight: 500;
 }
-
+.Firstcontainer button:hover{
+    background: hsl(108, 95%, 48%);
+}
 .image-container img{
     width: 402px;
     height: 378px;
@@ -272,4 +274,12 @@ button i{
     color: #FEEAE9;
 }
 
+button{
+    cursor: pointer;
+    border: none;
+}
 
+button:hover{
+    background-color: chartreuse;
+ color: #FFFFFF;
+}
